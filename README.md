@@ -2,7 +2,7 @@
 
 <div align="center">
   
-![RemoteNexus Banner](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6)
+![RemoteNexus Banner](./public/banner.png)
 
 **Your gateway to global remote opportunities**
 
@@ -11,7 +11,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.2-3178c6?logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.2.0-646cff?logo=vite)](https://vitejs.dev/)
 
-[Live Demo](#) • [Features](#-features) • [Getting Started](#-getting-started) • [Tech Stack](#-tech-stack)
+[Live Demo](https://remotenexus.pages.dev/) • [Features](#-features) • [Getting Started](#-getting-started) • [Tech Stack](#-tech-stack)
 
 </div>
 
