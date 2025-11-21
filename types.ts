@@ -14,11 +14,6 @@ export interface Job {
   apply_url: string;
 }
 
-export interface GeminiConfig {
-  temperature: number;
-  topK: number;
-  topP: number;
-}
 
 export enum FetchStatus {
   IDLE = 'IDLE',
