@@ -4,7 +4,7 @@ import { fetchJobs } from '../services/jobService';
 // import { generateCoverLetter, summarizeJob } from '../services/geminiService';
 import { Job } from '../types';
 import { MapPinIcon, BriefcaseIcon, SparklesIcon, ArrowRightIcon, DollarSignIcon, HeartIcon } from '../components/Icons';
-import AIModal from '../components/AIModal';
+// import AIModal from '../components/AIModal'; // Commented out - AI features disabled
 import JobCard from '../components/JobCard';
 import { useStore } from '../context/Store';
 
@@ -16,11 +16,11 @@ const JobDetail: React.FC = () => {
   const [similarJobs, setSimilarJobs] = useState<Job[]>([]);
   const [loading, setLoading] = useState(true);
 
-  // AI States
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [aiContent, setAiContent] = useState('');
-  const [aiLoading, setAiLoading] = useState(false);
-  const [modalTitle, setModalTitle] = useState('');
+  // AI States - COMMENTED OUT (AI features disabled)
+  // const [isModalOpen, setIsModalOpen] = useState(false);
+  // const [aiContent, setAiContent] = useState('');
+  // const [aiLoading, setAiLoading] = useState(false);
+  // const [modalTitle, setModalTitle] = useState('');
 
   useEffect(() => {
     const getJob = async () => {
@@ -46,6 +46,7 @@ const JobDetail: React.FC = () => {
     getJob();
   }, [id]);
 
+  /* AI Handlers - COMMENTED OUT (AI features disabled)
   const handleGenerateCoverLetter = async () => {
     if (!job) return;
     setModalTitle('Smart Cover Letter');
@@ -67,6 +68,7 @@ const JobDetail: React.FC = () => {
     setAiContent('AI job summarization is currently unavailable. Please check back later.');
     setAiLoading(false);
   }
+  */
 
   if (loading) {
     return (
@@ -91,6 +93,7 @@ const JobDetail: React.FC = () => {
 
   return (
     <div className="min-h-screen pb-20 pt-10">
+      {/* AIModal - COMMENTED OUT (AI features disabled)
       <AIModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
@@ -98,6 +101,7 @@ const JobDetail: React.FC = () => {
         content={aiContent}
         isLoading={aiLoading}
       />
+      */}
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center text-sm text-slate-500 mb-8">
@@ -153,8 +157,8 @@ const JobDetail: React.FC = () => {
                   <button
                     onClick={() => toggleSaveJob(job.id)}
                     className={`px-6 py-3 rounded-xl font-medium transition-colors border flex items-center justify-center gap-2 ${saved
-                        ? 'bg-secondary/20 border-secondary/50 text-secondary hover:bg-secondary/30'
-                        : 'bg-white/5 text-white border-white/10 hover:bg-white/10'
+                      ? 'bg-secondary/20 border-secondary/50 text-secondary hover:bg-secondary/30'
+                      : 'bg-white/5 text-white border-white/10 hover:bg-white/10'
                       }`}
                   >
                     <HeartIcon className="w-5 h-5" filled={saved} />
@@ -192,9 +196,10 @@ const JobDetail: React.FC = () => {
             )}
           </div>
 
+
           {/* Sidebar - Right */}
           <div className="lg:col-span-4 space-y-6">
-            {/* AI Tools Card */}
+            {/* AI Tools Card - COMMENTED OUT (Requires Gemini API) 
             <div className="glass-card rounded-2xl p-6 border border-primary/20 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-b from-primary/10 to-transparent opacity-50" />
               <div className="relative z-10">
@@ -225,6 +230,7 @@ const JobDetail: React.FC = () => {
                 </div>
               </div>
             </div>
+            */}
 
             {/* Tech Stack */}
             <div className="glass rounded-2xl p-6 border border-white/5">
@@ -247,9 +253,10 @@ const JobDetail: React.FC = () => {
             </div>
           </div>
 
+
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
