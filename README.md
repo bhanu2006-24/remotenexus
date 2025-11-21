@@ -6,12 +6,14 @@
 
 **Your gateway to global remote opportunities**
 
+### 🌐 [Visit RemoteNexus →](https://remotenexus.pages.dev/)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-19.2.0-61dafb?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.2-3178c6?logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.2.0-646cff?logo=vite)](https://vitejs.dev/)
 
-[Live Demo](https://remotenexus.pages.dev/) • [Features](#-features) • [Getting Started](#-getting-started) • [Tech Stack](#-tech-stack)
+[Features](#-features) • [Getting Started](#-getting-started) • [Tech Stack](#-tech-stack)
 
 </div>
 
@@ -181,28 +183,37 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 About the Founder
 
-**Bhanu Saini**
+<div align="center">
 
-- LinkedIn: [@bhanu-saini](https://www.linkedin.com/in/bhanu-saini-3bb251391/)
-- GitHub: [@bhanu2006-24](https://github.com/bhanu2006-24)
-- Instagram: [@krishna_websites](https://instagram.com/krishna_websites)
+**Bhanu Pratap Saini**  
+*Founder & Developer*
+
+Building tools to empower the remote work revolution 🚀
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077b5?logo=linkedin)](https://www.linkedin.com/in/bhanu-saini-3bb251391/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github)](https://github.com/bhanu2006-24)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-e4405f?logo=instagram)](https://instagram.com/krishna_websites)
+
+</div>
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Job data provided by [RemoteOK](https://remoteok.com/)
-- Icons and design inspiration from modern web design trends
-- Built with ❤️ for the remote work community
+- Job data powered by [RemoteOK](https://remoteok.com/)
+- Built with modern web technologies and best practices
+- Designed for the global remote work community
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by Bhanu Saini**
+### ⭐ Star this repo if you find it useful!
 
-If you found this project helpful, please consider giving it a ⭐!
+**RemoteNexus** • Connecting talent with opportunity
+
+</div>
 
 </div>
