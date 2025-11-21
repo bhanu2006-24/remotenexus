@@ -2,7 +2,7 @@
 
 <div align="center">
   
-![RemoteNexus Banner](./public/banner.png)
+![RemoteNexus Banner](./public/banner.jpeg)
 
 **Your gateway to global remote opportunities**
 
